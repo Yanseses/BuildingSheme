@@ -1,0 +1,19 @@
+.admin-table {
+    margin-top: 30px;
+    }
+
+.admin-table thead {
+    background-color: #ccd0d4;
+    }
+
+.admin-table tr {
+    border: 1px solid #ccd0d4;
+    }
+
+.admin-table tbody td:first-child {
+    font-weight: 700;
+    }
+
+.admin-table tr:nth-child(2n)  {
+    background-color: #e8eaec;
+}

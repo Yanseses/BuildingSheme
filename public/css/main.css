@@ -1,0 +1,397 @@
+.popup-rent-form {
+    position: fixed;
+    display: none;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    }
+    .window-rent-form {
+        background-color: #e8eaec;
+        color: black;
+        margin: auto;
+        width: 80%;
+        box-shadow: 0 0 30px rgba(0,0,0,0.3);
+        border: 1px solid #ccd0d4;
+        }
+        .header-rent-form {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid #ccd0d4;
+            padding: 30px;
+            }
+            .title-form {
+                margin: 0;
+                }
+            .button-back {
+                color: red;
+                border-radius: 20% 20%;
+                border: 1px solid;
+                padding: 5px 7px;
+                }
+                .button-back:hover {
+                    color: white;
+                    background-color: red;
+                    }
+        .body-rent-form {
+            padding: 30px;
+            display: flex;
+            }
+            .left-section {
+                width: 50%;
+                }
+                .img-container {
+                    width: 100%;
+                    }
+            .right-section {
+                width: 50%;
+                }
+                .properties-rooms {
+                    margin: 0;
+                    }
+				.properties-rooms-list {
+					margin: 5px 0;
+					}
+                .specifications-title {
+                    margin-left: 20px;
+                    margin-top: 0;
+                    }
+                .description-title {
+                    margin-left: 20px;
+                    margin-top: 20px;
+                    }
+                .description-room {
+                    margin-left: 20px;    
+                    }
+        .footer-rent-form {
+            padding: 30px;
+            display: flex;
+            justify-content: space-between;
+            border-top: 1px solid #ccd0d4;
+            }
+            .rent-bnt-callback {
+                padding: 20px;
+                }
+
+.back-button {
+    left: 85%;
+    top: 25%;
+    color: black;
+    position: absolute;
+    padding: 10px 15px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15%;
+    cursor: pointer;
+}
+
+.first-page-img {
+    width: 100%;
+    height: 100%;
+    }
+.first-pade-container {
+    text-align: center;
+    position: relative;
+    }
+    .plane {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        }
+        .border-plane {
+            opacity: 0;
+            }
+        .border-plane:hover {
+            color: red;
+            opacity: 0.6;
+            cursor: pointer;
+            }
+        .little-border {
+            opacity: 0.3;
+            }
+            .little-border:hover {
+                opacity: 0.6;
+                cursor: pointer;
+                }
+        .description-floor {
+            display: none;
+            box-sizing: border-box;
+            box-shadow: 0 0 10px;
+            position: absolute;
+            padding: 25px;
+            background-color: white;
+            font-size: 20px;
+            left: 10%;
+            top: 120px;
+            }
+        .interectiv-card {
+            text-align: center;
+            font-size: 36px;
+            }
+
+.five_floor-container {
+    display: none;
+    text-align: center;
+    }
+    .five_floor-plane {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 10%;
+        
+        }
+    .five_floor-img {
+        width: 100%;
+        height: 100%;
+        }
+
+
+.for_floor-container {
+    display: none;
+    text-align: center;
+    }
+    .for_floor-plane {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 10%;
+        }
+    .for_floor-img {
+        width: 100%;
+        height: 100%;
+        }
+
+
+.three_floor-container {
+    display: none;
+    text-align: center;
+    }
+    .three_floor-plane {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 10%;
+        }
+    .three_floor-img {
+        width: 100%;
+        height: 100%;
+        }
+
+.two_floor-container {
+    display: none;
+    text-align: center;
+    }
+    .two_floor-plane {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 10%;
+        }
+    .two_floor-img {
+        width: 100%;
+        height: 100%;
+        }
+
+.first_floor-container {
+    display: none;
+    text-align: center;
+    }
+    .first_floor-plane {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 10%;
+        }
+    .first_floor-img {
+        width: 100%;
+        height: 100%;
+        }
+        
+.loader-window {
+    display: none; 
+    position: fixed; 
+    left:0; 
+    right:0; 
+    top:0; 
+    bottom:0; 
+    background: rgba(0,0,0,.6);
+    }
+    .loader-text {
+        position: absolute; 
+        top: 50%; 
+        left: calc(50% + 40px); 
+        transform: translate(-50%,-50%); 
+        font-size: 5em; 
+        color: white;
+    }
+.callBack-container {
+	border: 1px solid; 
+    position: absolute; 
+    top: 50%; 
+    left: calc(50%); 
+    transform: translate(-50%,-50%); 
+    background-color: white; 
+    width: 40%; 
+    padding: 20px; 
+	}
+	.callBack-heading {
+		text-align: center;
+		}
+.room_taken {
+    display: none; 
+    position: 
+    fixed; left:0; 
+    right:0; 
+    top:0; 
+    bottom:0; 
+    background: rgba(0,0,0,.6);
+    }
+    .room_taken-container {
+        border: 1px solid; 
+        position: absolute; 
+        top: 50%; 
+        left: calc(50%); 
+        transform: translate(-50%,-50%); 
+        background-color: white; 
+        width: 40%; 
+        height: 35%; 
+        padding: 20px; 
+        text-align: center;
+        }
+        .room_taken-heading {
+            font-size: 24px;
+            }
+        .room_taken-description {
+            font-size: 16pt; 
+            margin-bottom: 40px;
+            }
+        .room_taken-button {
+            padding: 10px;
+        }
+        
+@media (max-width: 767px) {
+
+    .interectiv-card {
+        font-size: 18px;
+        }
+    .five_floor-plane, 
+    .for_floor-plane,
+    .three_floor-plane,
+    .two_floor-plane,
+    .first_floor-plane {
+        top: inherit;
+    }
+    .five_floor-img,
+    .for_floor-img,
+    .three_floor-img,
+    .two_floor-img,
+    .first_floor-img {
+        margin-bottom: 30px;
+    }
+    .back-button {
+        position: inherit;
+    }
+    .window-rent-form {
+        width: 100%;
+        box-shadow: none;
+        }
+    .body-rent-form {
+        display: block;
+        padding: 15px;
+        }
+    .header-rent-form {
+        padding: 15px;
+        }
+    .left-section {
+        width: 100%;
+        }
+    .right-section {
+        width: 100%;
+		max-height: 400px;
+    	overflow: scroll;
+        }
+    .button-back {
+        height: 10%;
+        }
+    .specifications-title,
+    .description-title {
+        margin: 20px 0;
+        }
+    .properties-rooms {
+        padding-left: 15px;
+        }
+    .description-room {
+        margin: 0;
+    }
+    .footer-rent-form {
+        padding: 15px;
+    }
+    .rent-bnt-callback {
+        padding: 10px;
+    }
+	.callBack-container {
+        width: 90%;
+        height: inherit;
+	}
+    .room_taken-container {
+        top: 25%;
+        width: 90%;
+        height: inherit;
+    }
+    .room_taken-heading {
+        font-size: 18px;
+    }
+    .room_taken-description {
+        font-size: 14px;
+    }
+    .loader-text {
+        font-size: 2em; 
+        top: 15%;
+        left: 55%;
+    }
+    .title-form {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 630px) and (max-width: 768px) {
+ 
+    .body-rent-form {
+        display: flex;
+        }
+    .left-section {
+        width: 50%;
+        }
+    .right-section {
+        width: 50%;
+    }
+    .properties-rooms {
+        padding-left: 40px;
+    }
+    .description-title {
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .specifications-title {
+        margin-left: 20px;
+        margin-top: 0;
+    }
+    .description-room {
+        margin-left: 20px;
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+     .interectiv-card {
+        font-size: 28px;
+        }
+    .five_floor-plane, 
+    .for_floor-plane,
+    .three_floor-plane,
+    .two_floor-plane,
+    .first_floor-plane {
+        top: inherit;
+    }
+}
