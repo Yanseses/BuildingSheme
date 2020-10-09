@@ -2,7 +2,7 @@
 
 #EN:
 Install in Wordpress ZIP File. 
-Plugin appearance can be seen here: http://greatale.ru/
+Plugin appearance can be seen here: http://бцплатинум.рф/
 
 #RU: 
 Вордпресс плагин для создания схемы здания. Плагин находится в процессе разработки и улучшения качества кода и увеличения функционала.
